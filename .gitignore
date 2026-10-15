@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.idea/
+.vscode/
+
+# 私密：证书私钥绝不能上传（cert.pem 公钥保留，方便他人导入信任）
+key.pem
+
+# 杂项
+*.log
+result.jpg
+test.jpg

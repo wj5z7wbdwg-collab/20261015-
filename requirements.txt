@@ -1,0 +1,13 @@
+# Web 服务与推理运行依赖
+fastapi
+uvicorn[standard]
+websockets
+onnxruntime
+opencv-python
+numpy
+pillow
+
+# 仅当需要重新转换模型（keras_model.h5 -> onnx）时安装：
+# tensorflow
+# tf-keras
+# tf2onnx
